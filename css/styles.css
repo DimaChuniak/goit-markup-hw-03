@@ -1,0 +1,225 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+:root {
+  --header-text-color: #212121;
+  --main-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --fourt-text-color: #ffffff;
+  --title-color: #000000;
+  --footer-color: rgba(255, 255, 255, 0.6);
+}
+
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.list {
+  text-decoration: none;
+}
+
+.main-section {
+  background-color: #2f303a;
+}
+.footer-list {
+  background-color: #2f303a;
+}
+.title-btn {
+  background-color: #2196f3;
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19x;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-text-color);
+}
+.header-logo span {
+  color: black;
+}
+span {
+  color: #ffffff;
+}
+.header-infoto {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.header-infoto:hover,
+.header-infoto:focus {
+  color: var(--accent-text-color);
+}
+.header-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--main-text-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fourt-text-color);
+}
+.title-btn {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--fourt-text-color);
+}
+.title-btn:hover,
+.title-btn:focus {
+  color: var(--header-text-color);
+}
+.main-btn {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+.main-btn:hover,
+.main-btn:focus {
+  color: var(--accent-text-color);
+}
+
+.about-pre-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+
+.about-after-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.about-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-text-color);
+}
+
+.masters-title {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.masters {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.master-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+}
+.en {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.hero-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--header-text-color);
+}
+
+.hero-after-title {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--fourt-text-color);
+}
+
+.button {
+  color: var(--header-text-color);
+  cursor: pointer;
+}
+.footer-infoto {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-color);
+}
+
+.footer-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-text-color);
+}
