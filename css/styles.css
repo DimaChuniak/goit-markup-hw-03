@@ -2,6 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   color: #212121;
 }
+
 :root {
   --header-text-color: #212121;
   --main-text-color: #757575;
@@ -9,6 +10,25 @@ body {
   --fourt-text-color: #ffffff;
   --title-color: #000000;
   --footer-color: rgba(255, 255, 255, 0.6);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
 }
 
 a {
@@ -19,6 +39,14 @@ a {
 }
 .list {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 .main-section {
@@ -37,6 +65,7 @@ a {
   line-height: 1.19x;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+  padding-top: 24px;
 }
 .header-link {
   font-weight: 500;
