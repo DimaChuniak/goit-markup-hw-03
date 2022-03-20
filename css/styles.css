@@ -82,11 +82,11 @@ a {
   line-height: 1.19x;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .header-logo {
-  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-left: 215px;
 }
 .header-link {
   font-weight: 500;
@@ -103,8 +103,6 @@ a {
 
 .header-item + .header-item {
   margin-left: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-logo span {
@@ -149,9 +147,11 @@ span {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--fourt-text-color);
+}
+.main-title {
   padding-top: 200px;
   padding-bottom: 280px;
-  color: var(--fourt-text-color);
 }
 .title-btn {
   font-family: Roboto;
@@ -159,13 +159,17 @@ span {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--fourt-text-color);
-  text-align: center;
-  margin-top: 40px;
 }
+
 .title-btn:hover,
 .title-btn:focus {
   color: var(--header-text-color);
 }
+.title-btn {
+  padding-top: 40px;
+  padding-bottom: 210px;
+}
+
 .main-btn {
   font-family: Roboto;
   font-weight: 500;
@@ -204,6 +208,10 @@ span {
   color: var(--header-text-color);
   text-align: center;
 }
+.about-pre-title {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 
 .about-after-title {
   font-weight: normal;
@@ -237,6 +245,7 @@ span {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .masters {
   padding-top: 94px;
@@ -244,7 +253,8 @@ span {
 }
 .masters {
   display: flex;
-  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
 }
 .master-item-title {
   font-weight: 500;
@@ -252,7 +262,8 @@ span {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--header-text-color);
-  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .en {
@@ -261,9 +272,7 @@ span {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  display: flex;
-  padd
-  ing-top: 10px;
+  text-align: center;
 }
 .gallery-list {
   display: flex;
@@ -303,8 +312,10 @@ span {
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
-.footer-list {
+.footer-logo {
   padding-top: 60px;
+  padding-bottom: 20px;
+  margin-left: 215px;
 }
 
 .address {
@@ -315,6 +326,7 @@ span {
   letter-spacing: 0.03em;
 
   color: var(--fourt-text-color);
+  padding-top: 20px;
 }
 
 .button {
@@ -328,6 +340,7 @@ span {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-color);
+  padding-top: 9px;
 }
 
 .footer-tel {
