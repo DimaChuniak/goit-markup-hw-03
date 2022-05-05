@@ -42,7 +42,7 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 1240px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -61,6 +61,8 @@ a {
 
 .header-container {
   display: flex;
+  align-items: center;
+  margin: auto;
 }
 .navigation {
   display: flex;
@@ -68,12 +70,6 @@ a {
 }
 .header-list {
   display: flex;
-}
-.header-connect {
-  margin-left: auto;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-logo {
@@ -89,6 +85,10 @@ a {
   margin-left: 215px;
 }
 .header-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -111,6 +111,12 @@ a {
 span {
   color: #ffffff;
 }
+.header-connect {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .header-infoto {
   font-style: normal;
   font-weight: 500;
